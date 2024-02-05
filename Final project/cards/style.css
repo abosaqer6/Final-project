@@ -1,0 +1,224 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #3a444e;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #707b85;
+    border: 2px solid rgb(157, 154, 154);
+    border-radius: 2px;
+  }
+
+  .header span {
+    color: #ff9900;
+    font-weight: bold;
+    position: relative;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   background-color: rgb(38, 52, 72);
+   
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+   margin: 8px;
+  }
+  .container {
+    position: relative;
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  
+  .mainbox {
+    box-sizing: border-box;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+  }
+  
+  .checkbox:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .checkbox:checked {
+    right: 10px;
+  }
+  
+  .checkbox:checked ~ .mainbox {
+    width: 50px;
+  }
+  
+  .checkbox:checked ~ .mainbox .search_input {
+    width: 0;
+    height: 0px;
+  }
+  
+  .checkbox:checked ~ .mainbox .iconContainer {
+    padding-right: 8px;
+  }
+  
+  .checkbox {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    z-index: 9;
+    cursor: pointer;
+    appearance: none;
+  }
+  
+  .search_input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .search_input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+  }
+  
+  .iconContainer {
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  
+  .search_icon {
+    box-sizing: border-box;
+    fill: white;
+    font-size: 1.3em;
+  }
+  .navbar {
+    background-color: #49525b; /* Navbar background */
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding:  20px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: #777; /* Default button background */
+    padding: 10px 20px;
+    margin:  10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #989696; /* Button hover effect */
+}
+
+.sign-up {
+    background-color: #777; /* Sign up button background */
+}
+
+.premium {
+    background-color: #d4af37; /* Premium button background */
+}
+
+.premiumnav{
+  display: flex;
+  width: 50%;
+  margin-right: 190px;
+}
+.sign_in {
+  position: absolute;
+  left: 580px;
+  padding: 10px;
+  margin-left: -20px;
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 4px;
+  background-color: #777;
+  color: #777;
+}
+.sign_up {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.329);
+  color: #777;
+  margin-left: 20px;
+}
+
+.logo_1 {
+  height: 130px;
+}
+
+.copyright {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #707b85;
+  color: #eadfdf;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+}
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+ background-color: #49525b;
+}

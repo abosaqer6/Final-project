@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3a444e; /* white background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    
+  }
+  
+  .signin-form h2 {
+    color: #a49d9d; /* black text for heading */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #595959; /* dark grey border */
+    border-radius: 20px;
+    font-size: 16px;
+    background-color:#707b85 ;
+    color: rgb(183, 183, 183);
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #a49d9d; /* almost black text for labels */
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-group label {
+    color: #a49d9d; /* almost black text for checkbox label */
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #777; /* black background for buttons */
+    color: #ffffff; /* white text for buttons */
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 438px;
+  }
+  
+  button.social-signin {
+    background-color: #ffffff; /* light grey background for social buttons */
+    color: #080808; /* almost black text for social buttons */
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .alternative {
+    text-align: center;
+    margin-bottom: 20px;
+  color: #a9b4be;
+  }
+  
+  
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: rgb(209, 208, 208); /* black text for sign-up link */
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  .alternative i{
+    margin: 8px;
+  }
+  p{
+    color: #a49d9d;
+  }
+  .uu a{
+    text-decoration: none;
+    color: white;
+  }
+  

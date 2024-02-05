@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #3a444e;
+  }
+  
+  .exercise-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .exercise-header h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-grid;
+  }
+  img{
+    border: 10px solid ;
+    border-radius: 15px;
+    background-color: #0072e4;
+  }
+  .muscles-worked {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  
+  
+  h3{
+    color: #f4f4f4;
+  }
+  
+  .max-weight {
+    background-color: #ffd700;
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 
+  .muscle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  
+  .muscle {
+    position: relative;
+  }
+
+  .primary {
+    color: #00a2ff;
+  }
+
+  .secondary {
+    color: #ff00ff;
+  }
+
+  .chest {
+    background-color: #00a2ff;
+   
+  }
+
+  .shoulders {
+    background-color: #ff00ff;
+  }
+
+  .triceps {
+    background-color: #ff00ff;
+  }
